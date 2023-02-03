@@ -14,10 +14,10 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
 gem "bootsnap", require: false
+gem "bcrypt", "~> 3.1.7"
 
 # gem "redis", "~> 4.0"
 # gem "kredis"
-# gem "bcrypt", "~> 3.1.7"
 # gem "image_processing", "~> 1.2"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
