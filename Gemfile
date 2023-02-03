@@ -16,7 +16,7 @@ gem "jbuilder"
 gem "bootsnap", require: false
 gem "bcrypt", "~> 3.1.7"
 
-# gem "redis", "~> 4.0"
+gem "redis", "~> 4.0"
 # gem "kredis"
 # gem "image_processing", "~> 1.2"
 
