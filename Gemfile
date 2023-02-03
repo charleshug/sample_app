@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.0.2"
 
 gem "rails", "~> 7.0.4", ">= 7.0.4.1"
+gem 'bootstrap-sass'
+gem "sassc-rails"
 gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
@@ -16,7 +18,6 @@ gem "bootsnap", require: false
 # gem "redis", "~> 4.0"
 # gem "kredis"
 # gem "bcrypt", "~> 3.1.7"
-# gem "sassc-rails"
 # gem "image_processing", "~> 1.2"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
